@@ -1,0 +1,1 @@
+scaffold-DbContext "Server=DREAMENGINE\SQLEXPRESS;Database=HW;Trusted_Connection=True;MultipleActiveResultSets=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir "Models" -ContextDir "DbContexts" -Context "AppDbContext" -DataAnnotations -t tblSalesDetails,tblSales,tblPurchaseDetails,tblPurchase,tblPartnerType,tblPartner,tblItem -f
