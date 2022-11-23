@@ -2,32 +2,34 @@
 
 
 <h1>Tables</h> ::
-tblItem [intItemId(pk), strItemName, numStockQuantity, isActive]
+<p><h3>
+<li>tblItem [intItemId(pk), strItemName, numStockQuantity, isActive]</li>
  
-tblPartnerType [intPartnerTypeId(pk), strPartnerTypeName, isActive]
-tblPartner [intPartnerId(pk), strPartnerName, intPartnerTypeId,isActive]
+<li>tblPartnerType [intPartnerTypeId(pk), strPartnerTypeName, isActive]</li>
+<li>tblPartner [intPartnerId(pk), strPartnerName, intPartnerTypeId,isActive]</li>
  
-tblSales [intSalesId(pk), intCustomerId, dteSalesDate, isActive]
-tblSalesDetails [intDetailsId(pk),intSalesId, intItemId, numItemQuantity, numUnitPrice, isActive]
+<li>tblSales [intSalesId(pk), intCustomerId, dteSalesDate, isActive]</li>
+<li>tblSalesDetails [intDetailsId(pk),intSalesId, intItemId, numItemQuantity, numUnitPrice, isActive]/li>
  
-tblPurchase [intPurchaseId(pk), intSupplierId, dtePurchaseDate, isActive]
-tblPurchaseDetails [intDetailsId(pk), intPurchaseId, intItemId,  numItemQuantity, numUnitPrice, isActive]
-
+<li>tblPurchase [intPurchaseId(pk), intSupplierId, dtePurchaseDate, isActive]</li>
+<li>tblPurchaseDetails [intDetailsId(pk), intPurchaseId, intItemId,  numItemQuantity, numUnitPrice, isActive]<li>
+</h3></p>
 <h1>API</h1>
-1# Create partner type [Customer, Supplier]
-2# Create some customer and supplier [Single]
-3# Create Some items [List of item, don’t allow duplicates]
-4# Edit some items [List of item, don’t allow duplicates]
+<ol>
+<li> Create partner type [Customer, Supplier]</li>
+<li>Create some customer and supplier [Single]</li>
+<li> Create Some items [List of item, don’t allow duplicates]</li>
+<li> Edit some items [List of item, don’t allow duplicates]</li>
 
-5# Purchase Some item from a supplier
-6# Sale some item to a customer [ Check stock while selling items]
+<li> Purchase Some item from a supplier</li>
+<li> Sale some item to a customer [ Check stock while selling items]</li>
 
-7# Find item wise Daily Purchase report [Define your own fields for report]
-8# Find item wise Monthly Sales report [Define your own fields for report]
-09# Find item wise Daily Purchase vs Sales Report
-10# Find Report with given column
+<li> Find item wise Daily Purchase report [Define your own fields for report]</li>
+<li> Find item wise Monthly Sales report [Define your own fields for report]</li>
+<li> Find item wise Daily Purchase vs Sales Report</li>
+<li> Find Report with given column</li>
 (Month name, year, total purchase amount, total sales amount, profit/loss status)
-
+</ol>
 
 
 
